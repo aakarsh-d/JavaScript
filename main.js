@@ -43,9 +43,33 @@ console.log("Hello! "+ firstname+ " "+ lastname);
 let age=18;
 if(age<18)
     {
-        console("Yo broo!");
+        console.log("Yo broo!");
     }
 else{
-    console("Namaste!");
+    console.log("Namaste!");
 }
 
+
+const ages=[21,22,23,24,25,26,100];
+const numberofpeople=ages.length;
+for(let i=0;i<numberofpeople;i++)
+    {
+        if(ages[i]%2==0)
+            console.log(ages[i]);
+    }
+
+
+const personarray=["ramanguy","deku","anya"];
+const genderarray=["male","male","female"];
+for(let i=0;i<personarray.length;i++){
+    if(genderarray[i]=="male"){
+        console.log(personarray[i]);
+    }
+}
+
+const user1={
+    firstn: "Harkirat",
+    gender: "male"
+}
+
+const value=[1,2,3];
