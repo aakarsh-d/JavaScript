@@ -71,5 +71,5 @@ const user1={
     firstn: "Harkirat",
     gender: "male"
 }
-
-const value=[1,2,3];
+console.log(user1["gender"])
+// const value=[1,2,3];
