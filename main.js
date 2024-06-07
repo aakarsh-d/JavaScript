@@ -59,6 +59,14 @@ for(let i=0;i<numberofpeople;i++)
     }
 
 
+    let arr=[10,20,30,40];
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum=sum+arr[i];
+    }
+    console.log(sum);
+
+
 const personarray=["ramanguy","deku","anya"];
 const genderarray=["male","male","female"];
 for(let i=0;i<personarray.length;i++){
