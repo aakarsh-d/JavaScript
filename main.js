@@ -89,11 +89,23 @@ console.log(user1["gender"])
 
 //reverse an array
 let ar=[1,2,3,4,5];
-let p=[];
-for(let i=ar.length;i<0;i++){
-    p[i]=ar[i];
+let p=[ar.length];
+for(let i=5;i<0;){
+    p[i]=ar[i-1];
 }
-for(let i=0;i<p.length;i++){
-console.log(p[i])
+for(let i=0;i<5;i++){
+console.log(p)
 }
     
+//find the largest number 
+let array=[1,3,4,5,6,7,11];
+let key=0;
+for(let i=0;i<array.length;i++){
+    
+    if(array[i]>key)
+        {
+            key=array[i];
+        }
+    
+}
+console.log(key);
