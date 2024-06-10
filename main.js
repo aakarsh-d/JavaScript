@@ -109,3 +109,14 @@ for(let i=0;i<array.length;i++){
     
 }
 console.log(key);
+
+
+//reverse an array
+let arrr=[1,2,3,4,5];
+let pr=[ar.length];
+for(let i=5;i<0;){
+    pr[i]=arrr[i-1];
+}
+for(let i=0;i<5;i++){
+console.log(pr)
+}
