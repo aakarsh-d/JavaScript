@@ -101,7 +101,6 @@ console.log(p)
 let array=[1,3,4,5,6,7,11];
 let key=0;
 for(let i=0;i<array.length;i++){
-    
     if(array[i]>key)
         {
             key=array[i];
@@ -119,4 +118,20 @@ for(let i=5;i<0;){
 }
 for(let i=0;i<5;i++){
 console.log(pr)
-}
+} 
+
+
+
+
+
+const agess=[21,22,23,24,25,26,100];
+const numberofpeoplee=ages.length;
+for(let i=0;i<numberofpeoplee;i++)
+    {
+        if(ages[i]%2==0)
+            console.log(agess[i]);
+    }
+
+
+
+
