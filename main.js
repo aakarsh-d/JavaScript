@@ -133,5 +133,18 @@ for(let i=0;i<numberofpeoplee;i++)
     }
 
 
+const aakarsh=90;
+console.log(aakarsh);
+// aakarsh='hello';  //if we had declared a var as const then we cant re-initiliaze that var again
+console.log(aakarsh);
 
+ // but it is not in var and let
+let aa=90;
+console.log(aa);
+aa="hello";
+console.log(aa);
 
+var ab="helloooo";
+console.log(ab);
+ab=90;
+console.log(ab);
