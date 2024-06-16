@@ -67,11 +67,11 @@ for(let i=0;i<numberofpeople;i++)
     console.log(sum);
 
 
-const personarray=["ramanguy","deku","anya"];
-const genderarray=["male","male","female"];
-for(let i=0;i<personarray.length;i++){
-    if(genderarray[i]=="male"){
-        console.log(personarray[i]);
+const persona=["ramanguy","deku","anya"];
+const genderar=["male","male","female"];
+for(let i=0;i<persona.length;i++){
+    if(genderar[i]=="male"){
+        console.log(persona[i]);
     }
 }
 
